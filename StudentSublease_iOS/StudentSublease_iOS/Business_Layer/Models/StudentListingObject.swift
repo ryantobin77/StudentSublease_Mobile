@@ -47,6 +47,7 @@ class StudentListingObject: NSObject {
     
     class func getStudentListings() -> Array<StudentListingObject> {
         var result = Array<StudentListingObject>()
+        
         result.append(StudentListingObject(title: "The Mark Atlanta", address: "955 Spring St NW, Atlanta, GA 30309", lister: "Ryan Tobin", listedDate: "09/30/2021", listingDescription: "This is a great listing! Please message me to sublease it", numBed: 4, numBath: 4, amenities: ["Pool", "Gym", "Kitchen", "A/C & Heating"], genderPreference: "None", startDate: "05/02/2022", endDate: "08/02/2022", rentPerMonth: 1250, numTenants: 2, fees: 0, numViews: 5, images: [UIImage(named: "TheMark.jpg")!]))
         
         result.append(StudentListingObject(title: "The Standard Atlanta", address: "708 Spring St NW, Atlanta, GA 30308", lister: "Tejas Vedantham", listedDate: "09/29/2021", listingDescription: "This is a great listing! Please message me to sublease it", numBed: 3, numBath: 3, amenities: ["Pool", "Gym", "Kitchen", "A/C & Heating"], genderPreference: "None", startDate: "05/05/2022", endDate: "08/05/2022", rentPerMonth: 1100, numTenants: 2, fees: 0, numViews: 5, images: [UIImage(named: "TheStandard.jpg")!]))

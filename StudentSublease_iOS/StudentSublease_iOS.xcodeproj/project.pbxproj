@@ -9,8 +9,15 @@
 /* Begin PBXBuildFile section */
 		24FE1B4A2705772D001F2675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FE1B422705772D001F2675 /* LaunchScreen.storyboard */; };
 		24FE1B4B2705772D001F2675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FE1B442705772D001F2675 /* Main.storyboard */; };
-		24FE1B4C2705772D001F2675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24FE1B472705772D001F2675 /* Assets.xcassets */; };
-		24FE1B4D2705772D001F2675 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FE1B492705772D001F2675 /* MenuVC.swift */; };
+		24FE1B5227062C57001F2675 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FE1B4F27062C57001F2675 /* SearchCell.swift */; };
+		24FE1B5327062C57001F2675 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FE1B5027062C57001F2675 /* SearchVC.swift */; };
+		24FE1B5427062C57001F2675 /* ListingDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FE1B5127062C57001F2675 /* ListingDetailVC.swift */; };
+		24FE1B5827062F48001F2675 /* StudentListingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FE1B5727062F48001F2675 /* StudentListingObject.swift */; };
+		24FE1B5E270636B0001F2675 /* TheMark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24FE1B5A270636B0001F2675 /* TheMark.jpg */; };
+		24FE1B5F270636B0001F2675 /* SQ5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24FE1B5B270636B0001F2675 /* SQ5.jpg */; };
+		24FE1B60270636B0001F2675 /* TheStandard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24FE1B5C270636B0001F2675 /* TheStandard.jpg */; };
+		24FE1B61270636B0001F2675 /* UH.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24FE1B5D270636B0001F2675 /* UH.jpg */; };
+		24FE1B6327063A9D001F2675 /* CreateListingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FE1B6227063A9D001F2675 /* CreateListingVC.swift */; };
 		94AB47192704DFC700C3C805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AB47182704DFC700C3C805 /* AppDelegate.swift */; };
 		94AB471B2704DFC700C3C805 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AB471A2704DFC700C3C805 /* SceneDelegate.swift */; };
 		94AB47302704DFC900C3C805 /* StudentSublease_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AB472F2704DFC900C3C805 /* StudentSublease_iOSTests.swift */; };
@@ -37,8 +44,15 @@
 /* Begin PBXFileReference section */
 		24FE1B432705772D001F2675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24FE1B452705772D001F2675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		24FE1B472705772D001F2675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		24FE1B492705772D001F2675 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		24FE1B4F27062C57001F2675 /* SearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		24FE1B5027062C57001F2675 /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		24FE1B5127062C57001F2675 /* ListingDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingDetailVC.swift; sourceTree = "<group>"; };
+		24FE1B5727062F48001F2675 /* StudentListingObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentListingObject.swift; sourceTree = "<group>"; };
+		24FE1B5A270636B0001F2675 /* TheMark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheMark.jpg; sourceTree = "<group>"; };
+		24FE1B5B270636B0001F2675 /* SQ5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SQ5.jpg; sourceTree = "<group>"; };
+		24FE1B5C270636B0001F2675 /* TheStandard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheStandard.jpg; sourceTree = "<group>"; };
+		24FE1B5D270636B0001F2675 /* UH.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UH.jpg; sourceTree = "<group>"; };
+		24FE1B6227063A9D001F2675 /* CreateListingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateListingVC.swift; sourceTree = "<group>"; };
 		94AB47152704DFC700C3C805 /* StudentSublease_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentSublease_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94AB47182704DFC700C3C805 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94AB471A2704DFC700C3C805 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,9 +93,9 @@
 		24FE1B402705772D001F2675 /* UI_Layer */ = {
 			isa = PBXGroup;
 			children = (
+				24FE1B59270636B0001F2675 /* Images */,
+				24FE1B4E27062C57001F2675 /* VCs */,
 				24FE1B412705772D001F2675 /* Storyboards */,
-				24FE1B462705772D001F2675 /* Images */,
-				24FE1B482705772D001F2675 /* VCs */,
 			);
 			path = UI_Layer;
 			sourceTree = "<group>";
@@ -95,20 +109,42 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		24FE1B462705772D001F2675 /* Images */ = {
+		24FE1B4E27062C57001F2675 /* VCs */ = {
 			isa = PBXGroup;
 			children = (
-				24FE1B472705772D001F2675 /* Assets.xcassets */,
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
-		24FE1B482705772D001F2675 /* VCs */ = {
-			isa = PBXGroup;
-			children = (
-				24FE1B492705772D001F2675 /* MenuVC.swift */,
+				24FE1B4F27062C57001F2675 /* SearchCell.swift */,
+				24FE1B6227063A9D001F2675 /* CreateListingVC.swift */,
+				24FE1B5027062C57001F2675 /* SearchVC.swift */,
+				24FE1B5127062C57001F2675 /* ListingDetailVC.swift */,
 			);
 			path = VCs;
+			sourceTree = "<group>";
+		};
+		24FE1B5527062F48001F2675 /* Business_Layer */ = {
+			isa = PBXGroup;
+			children = (
+				24FE1B5627062F48001F2675 /* Models */,
+			);
+			path = Business_Layer;
+			sourceTree = "<group>";
+		};
+		24FE1B5627062F48001F2675 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				24FE1B5727062F48001F2675 /* StudentListingObject.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		24FE1B59270636B0001F2675 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				24FE1B5A270636B0001F2675 /* TheMark.jpg */,
+				24FE1B5B270636B0001F2675 /* SQ5.jpg */,
+				24FE1B5C270636B0001F2675 /* TheStandard.jpg */,
+				24FE1B5D270636B0001F2675 /* UH.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		94AB470C2704DFC700C3C805 = {
@@ -134,10 +170,11 @@
 		94AB47172704DFC700C3C805 /* StudentSublease_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				24FE1B402705772D001F2675 /* UI_Layer */,
 				94AB47182704DFC700C3C805 /* AppDelegate.swift */,
 				94AB471A2704DFC700C3C805 /* SceneDelegate.swift */,
 				94AB47262704DFC900C3C805 /* Info.plist */,
+				24FE1B5527062F48001F2675 /* Business_Layer */,
+				24FE1B402705772D001F2675 /* UI_Layer */,
 			);
 			path = StudentSublease_iOS;
 			sourceTree = "<group>";
@@ -264,8 +301,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				24FE1B4A2705772D001F2675 /* LaunchScreen.storyboard in Resources */,
-				24FE1B4C2705772D001F2675 /* Assets.xcassets in Resources */,
+				24FE1B5E270636B0001F2675 /* TheMark.jpg in Resources */,
 				24FE1B4B2705772D001F2675 /* Main.storyboard in Resources */,
+				24FE1B60270636B0001F2675 /* TheStandard.jpg in Resources */,
+				24FE1B61270636B0001F2675 /* UH.jpg in Resources */,
+				24FE1B5F270636B0001F2675 /* SQ5.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,9 +330,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24FE1B5327062C57001F2675 /* SearchVC.swift in Sources */,
+				24FE1B5827062F48001F2675 /* StudentListingObject.swift in Sources */,
+				24FE1B5427062C57001F2675 /* ListingDetailVC.swift in Sources */,
 				94AB47192704DFC700C3C805 /* AppDelegate.swift in Sources */,
+				24FE1B5227062C57001F2675 /* SearchCell.swift in Sources */,
+				24FE1B6327063A9D001F2675 /* CreateListingVC.swift in Sources */,
 				94AB471B2704DFC700C3C805 /* SceneDelegate.swift in Sources */,
-				24FE1B4D2705772D001F2675 /* MenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
