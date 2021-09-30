@@ -31,10 +31,10 @@ class ListingDetailVC: UIViewController {
         self.costLabel.text = "$" + String(self.studentListing.rentPerMonth) + " • $" + String(self.studentListing.fees) + " in fees"
         self.startEndDateLabel.text = self.studentListing.startDate + " - " + self.studentListing.endDate
         self.descriptionLabel.text = self.studentListing.listingDescription
-        var amenityText = ""
-        for amenity in self.studentListing.amenities {
+        let amenityText = (self.studentListing.amenities.map{String($0)}).joined(separator: ", ")
+        /*for amenity in self.studentListing.amenities {
             amenityText += "• " + amenity + "\n"
-        }
+        }*/
         self.amenitiesLabel.text = amenityText
     }
     
