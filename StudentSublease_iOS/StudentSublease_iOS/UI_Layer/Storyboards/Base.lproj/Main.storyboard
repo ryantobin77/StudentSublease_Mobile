@@ -259,6 +259,9 @@
                                 <state key="normal" title="Message Lister">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="gmE-6w-52e" kind="show" id="twI-Sq-xYn"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCv-CP-gLn">
                                 <rect key="frame" x="25" y="313" width="340" height="21"/>
@@ -859,22 +862,40 @@
         <!--Messages-->
         <scene sceneID="Btm-aW-IMR">
             <objects>
-                <viewController id="gmE-6w-52e" sceneMemberID="viewController">
+                <viewController id="gmE-6w-52e" customClass="MessagesVC" customModule="StudentSublease_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cr0-9M-Ob5">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lAc-dB-Cq8">
+                                <rect key="frame" x="0.0" y="88" width="390" height="722"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="PM0-TM-Kdt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lAc-dB-Cq8" firstAttribute="top" secondItem="PM0-TM-Kdt" secondAttribute="top" id="ZWI-IA-Em3"/>
+                            <constraint firstItem="lAc-dB-Cq8" firstAttribute="leading" secondItem="PM0-TM-Kdt" secondAttribute="leading" id="q3u-am-AHZ"/>
+                            <constraint firstItem="PM0-TM-Kdt" firstAttribute="trailing" secondItem="lAc-dB-Cq8" secondAttribute="trailing" id="wOH-xB-COR"/>
+                            <constraint firstItem="PM0-TM-Kdt" firstAttribute="bottom" secondItem="lAc-dB-Cq8" secondAttribute="bottom" id="yX5-G9-fjB"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Messages" id="rAi-T6-8ia">
                         <barButtonItem key="backBarButtonItem" title=" " id="StB-N4-Zfb"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="myTable" destination="lAc-dB-Cq8" id="7rZ-Uh-NT0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e22-gh-7L3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1630" y="751"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="twI-Sq-xYn"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.backward" catalog="system" width="128" height="98"/>
         <image name="arrowtriangle.forward.fill" catalog="system" width="128" height="113"/>
