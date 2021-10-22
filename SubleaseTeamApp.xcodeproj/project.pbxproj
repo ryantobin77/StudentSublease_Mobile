@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE258FC4272382720027A4E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE258FC3272382720027A4E9 /* AppDelegate.swift */; };
+		CE258FC6272382720027A4E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE258FC5272382720027A4E9 /* SceneDelegate.swift */; };
+		CE258FC8272382720027A4E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE258FC7272382720027A4E9 /* ViewController.swift */; };
+		CE258FCE272382720027A4E9 /* SubleaseTeamApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE258FCC272382720027A4E9 /* SubleaseTeamApp.xcdatamodeld */; };
+		CE258FD0272382760027A4E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE258FCF272382760027A4E9 /* Assets.xcassets */; };
+		CE258FD3272382760027A4E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE258FD1272382760027A4E9 /* LaunchScreen.storyboard */; };
+		CE258FDC272382DE0027A4E9 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE258FDB272382DE0027A4E9 /* IQKeyboardManagerSwift */; };
+		CE258FDE272383200027A4E9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE258FDD2723831F0027A4E9 /* Extension.swift */; };
+		CE259003272384D00027A4E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE259001272384CF0027A4E9 /* Main.storyboard */; };
+		CE259005272384DD0027A4E9 /* CheckableTableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE259004272384DD0027A4E9 /* CheckableTableTableViewCell.swift */; };
+		CE259007272384E10027A4E9 /* CheckableTableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE259006272384E10027A4E9 /* CheckableTableTableViewCell.xib */; };
+		CE259009272384E60027A4E9 /* SetUp2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE259008272384E60027A4E9 /* SetUp2ViewController.swift */; };
+		CE25900B272385110027A4E9 /* SetUp3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE25900A272385110027A4E9 /* SetUp3ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE258FC0272382720027A4E9 /* SubleaseTeamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubleaseTeamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE258FC3272382720027A4E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE258FC5272382720027A4E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE258FC7272382720027A4E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE258FCD272382720027A4E9 /* SubleaseTeamApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SubleaseTeamApp.xcdatamodel; sourceTree = "<group>"; };
+		CE258FCF272382760027A4E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE258FD2272382760027A4E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE258FD4272382760027A4E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE258FDD2723831F0027A4E9 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extension.swift; path = ../../../backupCode/Extension.swift; sourceTree = "<group>"; };
+		CE259002272384CF0027A4E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../Sublease/Sublease/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE259004272384DD0027A4E9 /* CheckableTableTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckableTableTableViewCell.swift; path = ../../Sublease/Sublease/CheckableTableTableViewCell.swift; sourceTree = "<group>"; };
+		CE259006272384E10027A4E9 /* CheckableTableTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CheckableTableTableViewCell.xib; path = ../../Sublease/Sublease/CheckableTableTableViewCell.xib; sourceTree = "<group>"; };
+		CE259008272384E60027A4E9 /* SetUp2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetUp2ViewController.swift; path = ../../Sublease/Sublease/SetUp2ViewController.swift; sourceTree = "<group>"; };
+		CE25900A272385110027A4E9 /* SetUp3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetUp3ViewController.swift; path = ../../../backupCode/SetUp3ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE258FBD272382720027A4E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE258FDC272382DE0027A4E9 /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE258FB7272382720027A4E9 = {
+			isa = PBXGroup;
+			children = (
+				CE258FC2272382720027A4E9 /* SubleaseTeamApp */,
+				CE258FC1272382720027A4E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE258FC1272382720027A4E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE258FC0272382720027A4E9 /* SubleaseTeamApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE258FC2272382720027A4E9 /* SubleaseTeamApp */ = {
+			isa = PBXGroup;
+			children = (
+				CE258FC3272382720027A4E9 /* AppDelegate.swift */,
+				CE258FC5272382720027A4E9 /* SceneDelegate.swift */,
+				CE259001272384CF0027A4E9 /* Main.storyboard */,
+				CE259008272384E60027A4E9 /* SetUp2ViewController.swift */,
+				CE258FC7272382720027A4E9 /* ViewController.swift */,
+				CE25900A272385110027A4E9 /* SetUp3ViewController.swift */,
+				CE259006272384E10027A4E9 /* CheckableTableTableViewCell.xib */,
+				CE259004272384DD0027A4E9 /* CheckableTableTableViewCell.swift */,
+				CE258FDD2723831F0027A4E9 /* Extension.swift */,
+				CE258FCF272382760027A4E9 /* Assets.xcassets */,
+				CE258FD1272382760027A4E9 /* LaunchScreen.storyboard */,
+				CE258FD4272382760027A4E9 /* Info.plist */,
+				CE258FCC272382720027A4E9 /* SubleaseTeamApp.xcdatamodeld */,
+			);
+			path = SubleaseTeamApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE258FBF272382720027A4E9 /* SubleaseTeamApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE258FD7272382760027A4E9 /* Build configuration list for PBXNativeTarget "SubleaseTeamApp" */;
+			buildPhases = (
+				CE258FBC272382720027A4E9 /* Sources */,
+				CE258FBD272382720027A4E9 /* Frameworks */,
+				CE258FBE272382720027A4E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SubleaseTeamApp;
+			packageProductDependencies = (
+				CE258FDB272382DE0027A4E9 /* IQKeyboardManagerSwift */,
+			);
+			productName = SubleaseTeamApp;
+			productReference = CE258FC0272382720027A4E9 /* SubleaseTeamApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE258FB8272382720027A4E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = mithil;
+				TargetAttributes = {
+					CE258FBF272382720027A4E9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CE258FBB272382720027A4E9 /* Build configuration list for PBXProject "SubleaseTeamApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE258FB7272382720027A4E9;
+			packageReferences = (
+				CE258FDA272382DE0027A4E9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = CE258FC1272382720027A4E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE258FBF272382720027A4E9 /* SubleaseTeamApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE258FBE272382720027A4E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE259003272384D00027A4E9 /* Main.storyboard in Resources */,
+				CE259007272384E10027A4E9 /* CheckableTableTableViewCell.xib in Resources */,
+				CE258FD3272382760027A4E9 /* LaunchScreen.storyboard in Resources */,
+				CE258FD0272382760027A4E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE258FBC272382720027A4E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE25900B272385110027A4E9 /* SetUp3ViewController.swift in Sources */,
+				CE258FDE272383200027A4E9 /* Extension.swift in Sources */,
+				CE258FCE272382720027A4E9 /* SubleaseTeamApp.xcdatamodeld in Sources */,
+				CE259009272384E60027A4E9 /* SetUp2ViewController.swift in Sources */,
+				CE258FC8272382720027A4E9 /* ViewController.swift in Sources */,
+				CE258FC4272382720027A4E9 /* AppDelegate.swift in Sources */,
+				CE258FC6272382720027A4E9 /* SceneDelegate.swift in Sources */,
+				CE259005272384DD0027A4E9 /* CheckableTableTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE258FD1272382760027A4E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE258FD2272382760027A4E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CE259001272384CF0027A4E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE259002272384CF0027A4E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE258FD5272382760027A4E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE258FD6272382760027A4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE258FD8272382760027A4E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ATTTQ4L5A;
+				INFOPLIST_FILE = SubleaseTeamApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mithil.verma.SubleaseTeamApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE258FD9272382760027A4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ATTTQ4L5A;
+				INFOPLIST_FILE = SubleaseTeamApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mithil.verma.SubleaseTeamApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE258FBB272382720027A4E9 /* Build configuration list for PBXProject "SubleaseTeamApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE258FD5272382760027A4E9 /* Debug */,
+				CE258FD6272382760027A4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE258FD7272382760027A4E9 /* Build configuration list for PBXNativeTarget "SubleaseTeamApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE258FD8272382760027A4E9 /* Debug */,
+				CE258FD9272382760027A4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE258FDA272382DE0027A4E9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE258FDB272382DE0027A4E9 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE258FDA272382DE0027A4E9 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		CE258FCC272382720027A4E9 /* SubleaseTeamApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE258FCD272382720027A4E9 /* SubleaseTeamApp.xcdatamodel */,
+			);
+			currentVersion = CE258FCD272382720027A4E9 /* SubleaseTeamApp.xcdatamodel */;
+			path = SubleaseTeamApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE258FB8272382720027A4E9 /* Project object */;
+}
