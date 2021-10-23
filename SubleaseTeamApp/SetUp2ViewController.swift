@@ -1,8 +1,8 @@
 //
 //  SetUp2ViewController.swift
-//  Sublease
+//  SubleaseTeamApp
 //
-//  Created by mithil on 10/20/21.
+//  Created by mithil on 10/22/21.
 //  Copyright © 2021 mithil. All rights reserved.
 //
 
